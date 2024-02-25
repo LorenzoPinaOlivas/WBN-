@@ -184,7 +184,7 @@ body {
 }
 .slider-img img {
     margin-right: 225px;
-    width: 400px;
+    width: 380px;
 }
 
 /* Products */
@@ -402,6 +402,7 @@ body {
     margin-bottom: 5px;
     display: inline-block;
 }
+
 
 @media(max-width: 991px){
 
