@@ -27,11 +27,11 @@ body {
     font-size: 25px;
 }
 
-.swiper-button-prev {
+.swiper-button-next {
     color: #DB241B;
 }
 
-.swiper-button-next {
+.swiper-button-prev {
     color: #DB241B;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .social img {
-    margin: 8px 0 0 10px;
+    margin: 8px 0 0 6px;
 }
 
 /* menu navbar */
@@ -124,7 +124,7 @@ body {
     width: 25px;
 }
 
-.menu-label {
+.menu label {
     cursor: pointer;
     display: none;
 }
@@ -158,20 +158,12 @@ body {
     color: #A7A7A7;
 }
 
-.slider-img{
-    width: 50%;
-}
-.slider-img img {
-    margin-right: 225px;
-    width: 550px;
-}
-
 /* Botones */
 .botones {
     margin-top: 50px;
 }
 
-.btn-1{
+.btn-1 {
     display: inline-block;
     padding: 15px 35px;
     border: 2px solid #DB241B;
@@ -185,6 +177,14 @@ body {
 
 .btn-1:hover {
     background-color: #DB241B;
+}
+
+.slider-img {
+    width: 50%;
+}
+.slider-img img {
+    margin-right: 225px;
+    width: 400px;
 }
 
 /* Products */
@@ -224,10 +224,12 @@ body {
 .tabs input[type="radio"]{
     display: none;
 }
+
 .tabs input[type="radio"]:checked + label{
     border-bottom: 2px solid #DB241B;
     color: #ffffff;
 }
+
 .tabs input[type="radio"]:checked + label + .tab {
     display: block;
 }
@@ -259,11 +261,11 @@ body {
 }
 
 .product-img img {
-    width: 150px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
-.product-txtproduct-txtproduct-txt {
+.product-txt {
     width: 50%;
     margin-left: 10px;
     text-align: left;
@@ -291,7 +293,7 @@ body {
 
 /* Info */
 .info {
-    padding: 100px;
+    padding: 100px 0px;
     display: flex;
     align-items: center;
 }
@@ -301,7 +303,7 @@ body {
 }
 
 .info-img img {
-    width: 350px;
+    width: 400px;
     height: 280px;
 }
 
@@ -325,7 +327,7 @@ body {
 
 /* boton 2*/
 .btn-2 {
-    display: inline-;
+    display: inline-block;
     padding: 15px 35px;
     background-color: #DB241B;
     color: #ffffff;
@@ -480,9 +482,10 @@ body {
         width: 300px;
     }
 
-    .swiper-horizontal > .swiper-pagination-bullet,
-    .swiper-pagination-bullet,.swiper-pagination-horizontal,
-    .swiper-pagination-custom,.swiper-pagination-fraction{
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets,.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction{
         bottom: -7px;
     }
 
@@ -507,6 +510,7 @@ body {
     .info-img img {
         width: 400px;
         height: 200px;
+        margin-bottom: 25px;
     }
 
     .info-txt {
