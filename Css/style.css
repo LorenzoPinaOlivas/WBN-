@@ -382,12 +382,68 @@ body {
     filter: grayscale(100%) invert(92%) contrast(93%); /* Color de la mapa */
 }
 
-/* Footer */
+/* Footer 
 .footer{
     padding: 100px 0px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
+
+/*.footer-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}*/
+
+/*.footer-img img{
+        max-width: 35%;
+        height: auto;
+}*/
+
+.about{
+    text-align: center;
+}
+
+/* About main */
+.about-main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+/* About imgs */
+.about-imgs{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 220px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* About img */
+.about-img{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.about-title{
+    color:#ffffff;
+}
+
+/* About Paragraph */
+.about-paragraph{
+    line-height: 1.2;
+    color: #ffffff;
+}
+
 
 /* links */
 .links h4 {
