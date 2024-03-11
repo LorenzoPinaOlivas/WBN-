@@ -11,11 +11,18 @@
 body {
     background-color: #080202;
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 /* Swiper */
@@ -47,7 +54,7 @@ body {
 /* Menu, Navbar */
 .menu {
     position: absolute;
-    top: 20px;
+    top: 0;
     left: 0;
     right: 0;
     display: flex;
@@ -55,9 +62,14 @@ body {
     z-index: 1000;
 }
 
+
+
+/* Navbar */
 .navbar {
     display: flex;
+    overflow: hidden;
 }
+
 
 .menu-1 {
     margin-right: 180px;
@@ -75,7 +87,7 @@ body {
 }
 
 .logo-2 {
-    width: 150px;
+    max-width: 100px;
 }
 
 /* Social */
@@ -235,7 +247,7 @@ body {
 }
 
 /* products */
-.products {
+.product {
     display: flex;
     align-items: center;
     padding: 25px;
@@ -261,8 +273,8 @@ body {
 }
 
 .product-img img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .product-txt {
@@ -382,24 +394,6 @@ body {
     filter: grayscale(100%) invert(92%) contrast(93%); /* Color de la mapa */
 }
 
-/* Footer 
-.footer{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-/*.footer-cont{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}*/
-
-/*.footer-img img{
-        max-width: 35%;
-        height: auto;
-}*/
 
 .about{
     text-align: center;
