@@ -12,9 +12,6 @@ body {
     background-color: #080202;
     font-family: "Poppins", sans-serif;
     margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .container {
@@ -62,14 +59,11 @@ body {
     z-index: 1000;
 }
 
-
-
 /* Navbar */
 .navbar {
     display: flex;
     overflow: hidden;
 }
-
 
 .menu-1 {
     margin-right: 180px;
@@ -170,6 +164,14 @@ body {
     color: #A7A7A7;
 }
 
+.slider-img {
+    width: 40%;
+}
+.slider-img img {
+    margin-right: 225px;
+    width: 280px;
+}
+
 /* Botones */
 .botones {
     margin-top: 50px;
@@ -191,18 +193,22 @@ body {
     background-color: #DB241B;
 }
 
-.slider-img {
-    width: 50%;
-}
-.slider-img img {
-    margin-right: 225px;
-    width: 380px;
+/* boton 2*/
+.btn-2 {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #DB241B;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 50px;
 }
 
-/* Products */
-.products {
-    background-color: #0d0d0d;
+.btn-2:hover {
+    background-color: #ab1c15;
 }
+
+
 
 /* tabs */
 .tabs {
@@ -246,7 +252,12 @@ body {
     display: block;
 }
 
-/* products */
+/* Products */
+.products {
+    background-color: #0d0d0d;
+}
+
+/* product */
 .product {
     display: flex;
     align-items: center;
@@ -337,21 +348,6 @@ body {
     margin-bottom: 50px;
 }
 
-/* boton 2*/
-.btn-2 {
-    display: inline-block;
-    padding: 15px 35px;
-    background-color: #DB241B;
-    color: #ffffff;
-    font-weight: 800;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
-
-.btn-2:hover {
-    background-color: #ab1c15;
-}
-
 /* horario */
 .horario {
     padding: 100px 0px;
@@ -394,7 +390,7 @@ body {
     filter: grayscale(100%) invert(92%) contrast(93%); /* Color de la mapa */
 }
 
-
+/* about */
 .about{
     text-align: center;
 }
@@ -453,7 +449,7 @@ body {
     display: inline-block;
 }
 
-
+/* Responsive */
 @media(max-width: 991px){
 
     .menu{
